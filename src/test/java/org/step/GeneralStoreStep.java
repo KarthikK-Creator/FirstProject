@@ -105,6 +105,7 @@ public class GeneralStoreStep {
 		Thread.sleep(3000);
 		base.keyActions("BACK");
 		System.out.println("Developer");
+		System.out.println("Tester Code");
 		Thread.sleep(3000);
 		base.endAll();
 
