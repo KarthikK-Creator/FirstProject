@@ -104,6 +104,7 @@ public class GeneralStoreStep {
 	public void user_clicks_back_and_close_the_application() throws InterruptedException {
 		Thread.sleep(3000);
 		base.keyActions("BACK");
+		System.out.println("Developer");
 		Thread.sleep(3000);
 		base.endAll();
 
